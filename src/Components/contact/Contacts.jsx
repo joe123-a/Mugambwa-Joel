@@ -3,15 +3,29 @@ import {
   PhoneIcon,
   LocationMarkerIcon,
 } from "@heroicons/react/solid";
+import { useState } from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-
+import ContactForm from "./ContactForm";
 const Contact = () => {
+  const [contactForm, setContactForm] = useState(true);
+  const handleContactModel = () => {
+    setContactForm((prev) => !prev);
+  };
   return (
     <div
       id="contacts"
       className="  bg-slate-200 bg-gradient-to-r from-purple-500 to-indigo-500  p-8 rounded-lg shadow-lg w-full h-full flex flex-col justify-center items-center"
     >
-      <h2 className="text-3xl font-bold mb-6 text-center ">Contact Me</h2>
+      <button
+        className="text-3xl font-bold mb-6 text-center "
+        onClick={() => handleContactModel()}
+      >
+        Contact Me
+      </button>
+      <ContactForm
+        sx={`${contactForm && "hidden"}`}
+        handleContactModel={handleContactModel}
+      />
       <div className="space-y-4 w-full max-w-sm">
         <div className="flex items-center">
           <MailIcon className="w-6 h-6 mr-3" />
