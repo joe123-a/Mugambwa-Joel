@@ -62,7 +62,7 @@ const Contact = () => {
           <span>Mugambwa Joel</span>
         </a>
         <a
-          href="https://instagram.com/mugambwajoel"
+          href="https://x.com/notifications"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center hover:text-pink-500"
@@ -71,7 +71,7 @@ const Contact = () => {
           <span>Mugambwa Joel</span>
         </a>
         <a
-          href="https://linkedin.com/in/mugambwajoel"
+          href="https://www.linkedin.com/feed/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center hover:text-blue-700"

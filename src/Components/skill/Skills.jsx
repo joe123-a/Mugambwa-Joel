@@ -16,9 +16,10 @@ const Skills = () => {
           <div className="text-slate-500 sm:order-1">
             <SkillLevel skillsName="HTML, CSS" percentage="95%" />
             <SkillLevel skillsName="Figma" percentage="96%" />
-            <SkillLevel skillsName="React" percentage="90%" />
+            <SkillLevel skillsName="ReactJS" percentage="90%" />
             <SkillLevel skillsName="Bootstrap" percentage="89%" />
             <SkillLevel skillsName="Tailwind" percentage="90%" />
+            <SkillLevel skillsName="NextJS" percentage="80%" />
           </div>
         </div>
       </div>
