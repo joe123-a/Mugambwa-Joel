@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
-import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
+// import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 const navMenus = [
   {
     name: "Home",
@@ -22,24 +22,25 @@ const navMenus = [
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
-  );
+  // const [theme, setTheme] = useState(
+  //   localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+  // );
+  // eslint-disable-next-line no-unused-vars
   const element = document.documentElement;
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
-  useEffect(() => {
-    if (theme === "dark") {
-      element.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      element.classList.remove("dark");
-      localStorage.removeItem("theme");
-    }
-  }, [element.classList, theme]);
+  // useEffect(() => {
+  //   if (theme === "dark") {
+  //     element.classList.add("dark");
+  //     localStorage.setItem("theme", "dark");
+  //   } else {
+  //     element.classList.remove("dark");
+  //     localStorage.removeItem("theme");
+  //   }
+  // }, [element.classList, theme]);
 
   return (
     <>
@@ -62,7 +63,7 @@ const Navbar = () => {
                   </li>
                 );
               })}
-              {/* Light and dark mode switcher */}
+              {/* Light and dark mode switcher
               {theme === "dark" ? (
                 <BiSolidSun
                   className="text-2xl dark:text-white"
@@ -73,24 +74,24 @@ const Navbar = () => {
                   className="text-2xl dark:text-white"
                   onClick={() => setTheme("dark")}
                 />
-              )}
+              )} */}
             </ul>
           </div>
           {/* Mobile Responsive Menu */}
           <div className="sm:hidden">
             <div className="flex items-center gap-4">
               {/* Light and dark mode switcher */}
-              {theme === "dark" ? (
+              {/* {theme === "dark" ? (
                 <BiSolidSun
                   className="text-2xl dark:text-white"
                   onClick={() => setTheme("light")}
-                />
-              ) : (
-                <BiSolidMoon
+                /> */}
+              {/* ) : ( */}
+              {/* <BiSolidMoon
                   className="text-2xl dark:text-white"
                   onClick={() => setTheme("dark")}
                 />
-              )}
+              )} */}
               <FiMenu
                 className="text-2xl cursor-pointer dark:text-white "
                 onClick={toggleMenu}

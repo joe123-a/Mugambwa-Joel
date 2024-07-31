@@ -8,12 +8,12 @@ const projects = [
       "Developed the interfaces using Visual Studio Basic.",
       "Also used Arduino Board for implementation.",
     ],
-    duration: "May-Aug 2021 Aug-Dec 2023",
   },
   {
     title: "Hospital Management System (B.Eng. Project, Year 1)",
     description: [
       "Designed and developed a command line interface Application using C language.",
+      "A Hospital Management System (HMS) designed using C programming is a software solution that helps manage various aspects of hospital operations, such as patient records, staff schedules, billing, and inventory. ",
     ],
   },
 
@@ -21,6 +21,8 @@ const projects = [
     title: "Parking assistant (B. Eng. Project, Year 3 Semester 1)",
     description: [
       "Designed and developed using Arduino Uno, ultrasonic sensor, Buzzer.",
+      "A parking assistant is a simple yet effective project that enhances vehicle safety and assists with parking.",
+      " It combines basic electronics with programming to create a functional tool that aids drivers in maneuvering their vehicles more safely",
     ],
   },
 ];

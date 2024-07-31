@@ -31,7 +31,7 @@ const ContactForm = ({ sx, handleContactModel }) => {
   return (
     <>
       <div
-        className={` ${sx} fixed p-8 w-screen h-screen z-40 top-0 left-0 bottom-0 bg-[rgba(0,0,0,.5)] flex items-center justify-center`}
+        className={` ${sx}  fixed p-8 w-screen h-screen z-40 top-0 left-0 bottom-0 bg-[rgba(0,0,0,.5)] flex items-center justify-center`}
       >
         <div className="relative w-full max-w-[40rem]">
           <button

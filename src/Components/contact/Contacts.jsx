@@ -7,7 +7,7 @@ import { useState } from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 const Contact = () => {
-  const [contactForm, setContactForm] = useState(true);
+  const [contactForm, setContactForm] = useState(false);
   const handleContactModel = () => {
     setContactForm((prev) => !prev);
   };
@@ -23,7 +23,7 @@ const Contact = () => {
         Contact Me
       </button>
       <ContactForm
-        sx={`${contactForm && "hidden"}`}
+        sx={`${contactForm ? "animate-popIn" : "hidden"}`}
         handleContactModel={handleContactModel}
       />
       <div className="space-y-4 w-full max-w-sm">

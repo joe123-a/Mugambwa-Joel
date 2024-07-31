@@ -8,8 +8,14 @@ const Services = () => {
           Services
         </h1>
         <p className="text-slate-500 text-center md:w-[50%] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-          dolor sit amet. Id,erroradipisicing elit. Id, error.
+          A full-stack developer offers a comprehensive range of services
+          including front-end development, where they implement UI/UX designs
+          into functional web interfaces using HTML, CSS, and JavaScript,
+          ensuring responsiveness across devices and integrating interactive
+          elements with frameworks like React, Angular, or Vue.js. They also
+          handle back-end development, creating and maintaining server-side
+          applications with languages such as Node.js, Python, Ruby, Java, or
+          PHP, managing databases, and implementing server-side logic.
         </p>
       </div>
       <div>
