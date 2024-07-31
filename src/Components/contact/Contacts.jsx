@@ -29,11 +29,13 @@ const Contact = () => {
       <div className="space-y-4 w-full max-w-sm">
         <div className="flex items-center">
           <MailIcon className="w-6 h-6 mr-3" />
-          <span>mugambwajoel5@gmail.com</span>
+          <a href="mailto:mugambwajoel5@gmail.com">mugambwajoel5@gmail.com</a>
         </div>
         <div className="flex items-center">
           <PhoneIcon className="w-6 h-6 mr-3" />
-          <span>+256 779180593</span>
+          <a href="phone:+256 779180593" target="_blank">
+            +256 779180593
+          </a>
         </div>
         <div className="flex items-center">
           <LocationMarkerIcon className="w-6 h-6 mr-3" />
