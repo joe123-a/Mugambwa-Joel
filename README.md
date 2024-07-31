@@ -1,8 +1,45 @@
-# React + Vite
+# Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation Guidelines
 
-Currently, two official plugins are available:
+- Clone the repo by running
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+https://github.com/joe123-a/Mugambwa-Joel.git
+```
+
+- then Change to project directory by running
+
+```bash
+cd Mugambwa-Joel
+```
+
+- Then install the node modules with npm
+
+```bash
+npm i
+// or
+npm install
+```
+
+- clone the .example.env file and rename the copy to .env
+- Replace the placeholder keys with the right keys from email js user account
+- Finally Run the following command to preview the project
+
+```bash
+npm run dev
+```
+
+### To run the project in Production
+
+- run the follwoig command in the terminal
+
+```bash
+npm run build
+```
+
+- To preview the production environment run the following command
+
+```bash
+npm run preview
+```

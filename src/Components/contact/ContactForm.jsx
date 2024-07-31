@@ -15,7 +15,6 @@ const ContactForm = ({ sx, handleContactModel }) => {
         form.current,
         {
           publicKey: import.meta.env.VITE_PUBLIC_KEY,
-          // publicKey: "5Yx8bu2vI9HhWTzyw",
         }
       )
       .then(
