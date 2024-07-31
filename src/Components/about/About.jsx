@@ -41,7 +41,7 @@ const About = () => {
             </p>
             <div className="">
               <a
-                href="../../assets/MUGAMBWA JOEL RESUME.pdf"
+                href="/MUGAMBWA JOEL RESUME.pdf"
                 className="primary-btn my-6 mr-6 inline-block"
                 download
               >
