@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="container grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[600px] space-y-4 py-12 sm:py-0 ">
           <div className="">
             <div className="space-y-2 grid justify-items-center sm:justify-items-start">
-              <p className="uppercase ">Portfolio</p>
+              <p className="uppercase ">My Personal Portfolio</p>
               <p className="text-4xl md:text-6xl font-bold text-black/80 dark:text-white">
                 I am Mugambwa Joel
               </p>
