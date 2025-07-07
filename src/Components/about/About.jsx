@@ -28,8 +28,8 @@ const About = () => {
             <p>
               In addition to design, I am a proficient full stack developer
               capable of handling both front-end and back-end development tasks.
-              Utilizing technologies such as HTML, CSS, JavaScript, React, and
-              Node.js, I build robust, scalable, and high-performing
+              Utilizing technologies such as HTML, CSS, JavaScript, React,PHP
+              and Node.js, I build robust, scalable, and high-performing
               applications. My commitment to clean, maintainable code and best
               practices ensures that my projects are not only functional but
               also future-proof. My versatility and dedication to excellence

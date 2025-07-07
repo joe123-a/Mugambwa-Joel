@@ -47,7 +47,7 @@ const Navbar = () => {
       <nav id="home" className="bg-secondary dark:bg-gray-900">
         <div className="container flex justify-between items-center py-3 sm:py-0">
           <h1 className="text-3xl md:text-5xl font-bold text-primary flex justify-center items-center ">
-            JOM WEB DEVELOPER
+            JOEL WEB DEVELOPER
           </h1>
           <div className="hidden sm:block">
             <ul className="flex items-center gap-4 dark:text-white">

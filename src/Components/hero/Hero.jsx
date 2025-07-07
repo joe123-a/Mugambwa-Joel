@@ -19,12 +19,12 @@ const Hero = () => {
                 graphics design, and full stack development. He creates visually
                 stunning and user-friendly websites, engaging visual content,
                 and robust applications using technologies like HTML, CSS,
-                JavaScript, React,Tailwind Css, and Node.js. Known for his
-                creativity, precision, and understanding of modern design
-                principles and branding, Joel ensures seamless functionality
-                across devices and adherence to best practices. His dedication
-                to excellence and ability to exceed client expectations make him
-                a valuable asset for any project.
+                JavaScript, React,Tailwind Css, PHP, Django and Node.js. Known
+                for his creativity, precision, and understanding of modern
+                design principles and branding, Joel ensures seamless
+                functionality across devices and adherence to best practices.
+                His dedication to excellence and ability to exceed client
+                expectations make him a valuable asset for any project.
               </p>
               <a
                 href="mugambwajoel5@gmail.com"
